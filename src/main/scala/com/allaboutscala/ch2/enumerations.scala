@@ -5,7 +5,7 @@ import com.allaboutscala.ch2
 object Donut extends Enumeration {
   type Donut = Value
 
-  val Glazed: ch2.Donut.Value = Val ue ("Glazed")
+  val Glazed: ch2.Donut.Value = Value("Glazed")
   val Strawberry: ch2.Donut.Value = Value("Strawberry")
   val Plain: ch2.Donut.Value = Value("Plain")
   val Vanilla: ch2.Donut.Value = Value("Vanilla")
