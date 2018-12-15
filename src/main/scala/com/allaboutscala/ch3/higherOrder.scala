@@ -1,5 +1,7 @@
 package com.allaboutscala.ch3
 
+import scala.util.Random
+
 object higherOrder extends App {
   println("Review how to define function with curried parameter groups")
 
