@@ -22,5 +22,5 @@ object hmap extends App {
 
   val l = 23 :: "bar" :: HNil
   val m = l map hm
-  println(m)
+  println(m) // "foo" :: 13 :: HNil
 }
